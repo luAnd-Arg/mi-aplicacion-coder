@@ -1,0 +1,20 @@
+.btn__navBar{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;    
+    .btns__navBar{
+        color:orange;
+        background-color: rgba(20, 8, 8, 0.985);
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    border: 2px solid rgb(143, 142, 138);
+    :hover{
+        color: #2aff12;
+    }
+    }
+}

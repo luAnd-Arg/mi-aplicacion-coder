@@ -1,0 +1,13 @@
+@import url(./componentes/navbar/navbar.scs/_navBar.scss);
+@import url(./componentes/header/header.scss/_header.scss);
+@import url(./componentes/main/main.scss/_main.scss);
+@import url(./componentes/Cards/Cards.scss/cards.scss);
+body {
+  background-color: rgb(226, 216, 216);
+}
+
+.logo {
+  width: 1000px;
+  height: 1000x;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

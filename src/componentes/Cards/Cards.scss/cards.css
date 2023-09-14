@@ -1,0 +1,8 @@
+.cards__Icono {
+  position: relative;
+  left: 20%;
+}
+.cards__Icono .img__Icono {
+  width: 1rem;
+  height: 1rem;
+}/*# sourceMappingURL=cards.css.map */
