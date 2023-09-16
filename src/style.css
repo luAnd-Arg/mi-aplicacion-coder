@@ -2,8 +2,15 @@
 @import url(./componentes/header/header.scss/_header.scss);
 @import url(./componentes/main/main.scss/_main.scss);
 @import url(./componentes/Cards/Cards.scss/cards.scss);
+@import url(./imgGenerales/imgGenerales.scss/_imgGenerales.scss);
+* {
+  box-sizing: border-box; /* Evita que el padding y el borde afecten al ancho y alto del elemento */
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rgb(226, 216, 216);
+  background-color: rgb(0, 0, 0);
 }
 
 .logo {

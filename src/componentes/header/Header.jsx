@@ -1,7 +1,7 @@
 import NavBar from "../navbar/Navbar";
 function header (){
     return (
-        <NavBar/>
+        <NavBar title = {"LuAnd Calzados"} subtitulo = {"Bienvenidos"} />
     )
     }
 

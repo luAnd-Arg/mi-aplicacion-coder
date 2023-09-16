@@ -1,8 +1,8 @@
 import Cards from "../Cards/Cards";
-const NavBar = () => {
+const NavBar = (props) => {
     return (
       <nav className="navBar">
-      <h1>LuAnd Calzados</h1>
+      <h1>{props.title}</h1>
       <div className="btn__navBar">
         <button className="btns__navBar">Mujeres</button>
         <button className="btns__navBar">Hombres</button>
@@ -10,7 +10,7 @@ const NavBar = () => {
         <button className="btns__navBar">Saber más</button>
       <Cards/>
       </div>
-      <h2>Bienvenidos al sitio de compras de LuAnd Calzados</h2>
+      <h2>{props.subtitulo}</h2>
   </nav> 
   )
 

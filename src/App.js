@@ -4,11 +4,10 @@ import Main from './componentes/main/Main';
 function App() {
   return (
     <div>
-      <Header/>
-      <Main/>
+      <Header />
+      <Main />
     </div>
-    
-  )
+  );
 }
 
 export default App;
