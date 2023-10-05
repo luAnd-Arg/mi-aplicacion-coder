@@ -1,4 +1,3 @@
-import React from "react";
 
 const Item = ({ claseDelaSeccion, claseDelDiv, title, descripcion, precio, imagen, imgClassName }) => {
   return (
